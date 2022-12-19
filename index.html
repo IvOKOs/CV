@@ -1,91 +1,66 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ivo's Personal Site</title>
+    <title>Ivo Kostadinov</title>
     <link rel="stylesheet" href="css/styles.css"/> 
-
+    <link rel="icon" href="favicon.ico?v=2"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Quattrocento+Sans&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <table cellspacing="20"> 
-        <tr>
-        <td><img src="images/276249083_2494597227342408_7161700498508041706_n-modified.png" 
-            alt="Me and my cousin hanging around the pool." height="200" width="200"></td> 
-        <td><h1>Ivo Kostadinov</h1> 
-            <p><em>Junior .NET Developer</em></p> 
-            <p>I am a <strong>24</strong> years old programmer with interest in improving my web
-                development skills 
-            </p></td> 
-        </tr>
-    </table>
+    <div class="top-container">  
+        <img src="images/cloud.png" alt="just a cloud" class="cloud-top">
+        <h1>I'm Ivo</h1>
+        <h2>a .NET Developer</h2> 
+        <img src="images/cloud.png" alt="just a cloud" class="cloud-bottom">
+        <img src="images/mountain.png" alt="just a mountain" class="mountain"> 
+    </div>
     
-    <hr>
-    <h2>Education:</h2>
-      <ul>
-        <li>Technical University of Sofia</li>
-        <li>Foreign Language High School "Bertolt Brecht"</li>  
-      </ul> 
-    <hr>
-      <h2>Work Experience:</h2>
-      <table cellspacing="10"> 
-        <thead>
-            <tr>
-                <th>Date</th>
-                <th>Position</th>
-                <th>Company</th>
-            </tr>
-        </thead> 
-        <tbody>
-            <tr>
-                <td>May 2022 - Present</td>
-                <td>Junior .NET Developer</td> 
-                <td>ORAK Engineering</td>
-            </tr>
-            <tr>
-                <td>Dec 2021 - May 2022</td>
-                <td>Intern</td>
-                <td>ORAK Engineering</td> 
-            </tr>
-        </tbody>      
-      </table>
-    <hr>
-      <h2>Skills:</h2>
-      <table cellspacing=10>
-        <td>
-            <table>
-                <tr>
-                    <td>C#</td>
-                    <td>⭐⭐⭐⭐</td>
-                </tr>
-                <tr>
-                    <td>.NET Framework</td>
-                    <td>⭐⭐⭐⭐</td>
-                </tr>
-                <tr>
-                    <td>SQL Databases</td>
-                    <td>⭐⭐⭐⭐</td>
-                </tr>
-              </table>
-        </td>
-        <td>
-            <table>
-                <tr>
-                    <td>Photography</td>
-                    <td>⭐⭐</td> 
-                </tr>
-            </table>
-        </td>
-      </table>
+    <div class="middle-container">
+        <div class="profile">
+          <img src="images/ivo.png" alt="My profile picture" width="300px" height="300px">  
+          <h2>Hello.</h2>
+          <p class="styled-p intro">I am a <strong>24</strong> years old programmer with interest in improving my web development skills .</p> 
+        </div>
+        <hr>
+        <div class="skills">
+          <h2>My Skills.</h2>
+          <div class="skill-row">
+            <img class="csharp-image" src="images/c-sharp(2).png" alt="The logo of the programming language C#."> 
+            <h3>.NET Development</h3> 
+            <p class="styled-p">I started learning C# in my last year at university and I'm still enjoying coding on it and learning new stuff around it.</p> 
+          </div>
+          <div class="skill-row">
+            <img class="attack-on-titan-image" src="images/attack-on-titan.png" alt="A picture of my favorite anime - Attack on Titan."> 
+            <h3>Anime</h3> 
+            <p class="styled-p">But in reality one of my best skills is binge watching anime (especially rewatching Attack on Titan 😅).</p> 
+          </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>If you love Attack on Titan (or anime) as much as I do.</h3> 
+          <p class="contact-me-paragraph">Contact me so we can talk about code and anime.</p> 
+          <a class="btn-contact-me" href="mailto:ivaylo.kostadinov98@gmail.com">CONTACT ME</a> 
+        </div>
+      </div>
       
-    <hr> 
-      <h2>My Hobbies:</h2>
-      <ol>
-        <li>Gym</li>
-        <li><a href="https://9anime.vc/">Anime</a></li> 
-        <li>Walk in nature</li> 
-      </ol> 
-      <a href="contacts.html">Contact Me!</a> 
+      
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a> 
+        <p>
+          <a href="https://www.flaticon.com/free-icons/c-sharp" title="c sharp icons">C sharp icons created by Freepik - Flaticon</a>
+          <a href="https://www.pngegg.com/en/png-fmniv">Attack on Titan image</a>
+        </p> 
+        <p class="ivo-copyright">©2022 Ivo Kostadinov.</p>
+      </div>
+    
 </body>
 </html>
