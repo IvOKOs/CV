@@ -21,7 +21,8 @@ h2{
 }
 
 h3{
-    color: #11999E;
+    color: #11999E; 
+    font-family: 'Quattrocento Sans', sans-serif;
 }
 
 a{
@@ -53,7 +54,7 @@ a:hover{
 
 .middle-container{
     text-align: center; 
-    margin: 100px 0; 
+    margin: 100px auto; 
 }
 
 .bottom-container{ 
@@ -110,19 +111,6 @@ hr{
     border-bottom: none; 
     width: 5%; 
     margin: 100px auto; 
-}
-
-.skills{
-    margin-top: 80px; 
-}
-
-.profile{
-    margin-bottom: 80px; 
-}
-
-.contact-me{
-    margin-top: 80px; 
-    margin-bottom: 80px;
 }
 
 .ivo-copyright{
